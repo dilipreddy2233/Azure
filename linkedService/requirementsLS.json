@@ -1,0 +1,12 @@
+{
+	"name": "requirementsLS",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "AzureBlobStorage",
+		"typeProperties": {
+			"connectionString": "DefaultEndpointsProtocol=https;AccountName=requirementsazure;EndpointSuffix=core.windows.net;",
+			"encryptedCredential": "ew0KICAiVmVyc2lvbiI6ICIyMDE3LTExLTMwIiwNCiAgIlByb3RlY3Rpb25Nb2RlIjogIktleSIsDQogICJTZWNyZXRDb250ZW50VHlwZSI6ICJQbGFpbnRleHQiLA0KICAiQ3JlZGVudGlhbElkIjogIkRBVEFGQUNUT1JZQEE5RjYyNEFELTdDQUEtNDYwNi05MkVBLTA2NDdCRURFMEM3Q182NGI2NzM3Zi1kNDE1LTQ3MDktYjliNS00MzMxOGRkZjQ4MmEiDQp9"
+		}
+	}
+}

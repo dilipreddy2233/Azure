@@ -1,0 +1,16 @@
+{
+	"name": "eltcheck",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "SqlServer",
+		"typeProperties": {
+			"connectionString": "integrated security=False;data source=LAPTOP-M1F23FVQ;initial catalog=Eltcheck;user id=superuser",
+			"encryptedCredential": "eyJDcmVkZW50aWFsSWQiOiJjMDg5ZmM1Zi0zMDc5LTQ1MTUtYjc1Mi05OTg1Y2VlNWIxOGEiLCJWZXJzaW9uIjoiMi4wIiwiQ2xhc3NUeXBlIjoiTWljcm9zb2Z0LkRhdGFQcm94eS5Db3JlLkludGVyU2VydmljZURhdGFDb250cmFjdC5DcmVkZW50aWFsU1UwNkNZMTQifQ=="
+		},
+		"connectVia": {
+			"referenceName": "selfhostedir",
+			"type": "IntegrationRuntimeReference"
+		}
+	}
+}
