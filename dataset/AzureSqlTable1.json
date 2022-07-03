@@ -1,0 +1,29 @@
+{
+	"name": "AzureSqlTable1",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "updateddatamove",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "AzureSqlTable",
+		"schema": [
+			{
+				"name": "id",
+				"type": "nvarchar"
+			},
+			{
+				"name": "name",
+				"type": "nvarchar"
+			},
+			{
+				"name": "marks",
+				"type": "nvarchar"
+			}
+		],
+		"typeProperties": {
+			"schema": "dob",
+			"table": "data"
+		}
+	}
+}
